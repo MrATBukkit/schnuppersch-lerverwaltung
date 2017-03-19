@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Lehrer</title>
+</head>
+<body>
+<h1>Lehrer Anlegen</h1>
+<p>
+</p>
+<p>
+</p>
+<form action="lehrerspeichern.php" method="POST">
+<table border="1">
+<tr>
+<td colspan="2" align="center">Lehrer</td>
+</tr>
+<tr>
+<td>Vorname</td>
+<td><input type="text" name="vorname" size="25"></td>
+</tr>
+<tr>
+<td>Nachname</td>
+<td><input type="text" name="Nachname" size="25"></td>
+</tr>
+<tr>
+<td>Benutzername</td>
+<td><input type="text" name="Benutzername" size="25"></td>
+</tr>
+<tr>
+<td>pword</td>
+<td><input type="password" name="pword"></td>
+</tr>
+<tr>
+<td>rschuel</td>
+<td><input type="checkbox" name="rschuel" value="True">Darf der Benutzer Schüler erstellen</td>
+</tr>
+<tr>
+<td>rlehrer</td>
+<td><input type="checkbox" name="rlehrer" value="True">Darf der Benutzer Lehrer erstellen</td>
+</tr>
+</table>
+<input type="submit" value="Senden" />
+</form>
+</body>
+</html>

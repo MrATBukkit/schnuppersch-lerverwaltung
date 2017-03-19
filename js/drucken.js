@@ -1,0 +1,1 @@
+function SeiteDrucken() { focus(); Browser = parseInt(navigator.appVersion); if (Browser >= 4) window.print(); }

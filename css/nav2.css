@@ -1,0 +1,56 @@
+#menu {
+  border: 1px solid black;
+  width: 100%;
+  background-color:#;
+  font-size:14px;
+  position:absolute;  
+}
+
+#menu ul {
+  list-style-type:none;
+  list-style-image:none;
+  margin:0px;
+  padding:0px;
+}
+
+#menu li.topmenu {
+  float:left;
+}
+
+.topmenu a {
+  float:left;
+  width:110px;
+  text-align:center;
+}
+
+.topmenu ul{
+  display:none;
+}
+
+.topmenu a, .submenu a{
+  padding:1px 5px;
+  border:1px solid #C37000;
+  border-collapse:collapse;
+  color:#C37000;
+  font-weight:bold;
+  text-decoration:none;
+  background-color:#464139;
+  margin:0;  
+}
+
+.submenu a{
+  font-size:12px;
+  width:110px;
+  position:relative;
+  clear:both; /* special IE6 */
+}
+
+#menu a:hover, .topmenu.on a {
+  color:#4C4C4C;
+  background-color:#ffddbb !important;
+}
+
+.topmenu:hover ul {
+  display:block;  
+  z-index:500;
+}

@@ -1,0 +1,33 @@
+table, td, th {
+    border: 1px solid black;
+	background-color:#FFD503;
+	text-align: center; 
+	vertical-align:middle;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 50px;
+	background-color:#03FF68;
+}
+
+button {
+	display:none;
+}
+
+input {
+	display:none;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.noprint {
+	display: none;
+}
